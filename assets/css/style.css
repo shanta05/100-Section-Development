@@ -1,0 +1,76 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-padding{
+    padding: 115px 0;
+}
+
+.single-service-box {
+    border: 2px solid #e6e6e6;
+    border-radius: 3px;
+    color: #333;
+    display: block;
+    padding: 60px 30px 30px;
+    position: relative;
+    text-align: center;
+}
+.service-icon {
+    background: #54be73 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 30px;
+    height: 70px;
+    left: 50%;
+    line-height: 70px;
+    margin-left: -35px;
+    position: absolute;
+    top: -35px;
+    width: 70px;
+}
+.single-service-box h3 {
+    font-size: 20px;
+}
+.single-service-box:hover {
+    color: #333;
+}
+.single-service-box:hover h3 {
+    color: #54be73;
+}
+.single-service-box p {
+    color: #a7a7a7;
+    font-size: 17px;
+}
+.color-2{
+    background-color: #78BF4D;
+}
+.color-3{
+    background-color: #9CC026;
+}
