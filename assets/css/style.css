@@ -74,3 +74,43 @@ a:hover { text-decoration: none }
 .color-3{
     background-color: #9CC026;
 }
+.service-box-bg-1{
+    background-image: url(../img/blog-1.jpg);
+}
+.service-box {
+  background-position: center center;
+  background-size: cover;
+  border-radius: 5px;
+  height: 200px;
+}
+
+a.boxed-btn {
+    background: #f8b428 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 40px;
+    opacity: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    visibility: hidden;
+}
+.service-box-hover h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.service-box-hover {
+  bottom: -20px;
+  left: 50px;
+  position: absolute;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+  color: #fff;
+}
+.service-box:hover .service-box-hover {
+    bottom: 35px;
+}
+.service-box:hover a.boxed-btn {
+    opacity: 1;
+    visibility: visible;
+}
