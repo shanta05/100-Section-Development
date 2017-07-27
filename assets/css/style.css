@@ -358,3 +358,100 @@ p.form-element label {
 .contact-us-form input[type="text"]:focus, .contact-us-form input[type="email"]:focus, .contact-us-form textarea:focus {
     background-color: #f0f0f0;
 }
+
+.newslatter-bg{
+  background-image: url(../img/newslatter-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.newslatter-bg h2 {
+    text-transform: uppercase;
+}
+.newslatter-bg {
+  color: #fff;
+  padding-bottom: 180px;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+.newslatter-bg::after {
+    background: #333 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.newslatter-form input[type="email"] {
+    background-color: #333;
+    border: 1px solid #8e8582;
+    border-radius: 50px;
+    opacity: 0.7;
+    padding: 12px;
+    width: 79%;
+}
+.newslatter-form input[type="submit"] {
+    background-color: #34b79d;
+    border: medium none;
+    border-radius: 50px;
+    padding: 13px 30px;
+    width: 20%;
+}
+.newslatter-form form {
+    font-style: normal;
+    margin-bottom: 18px;
+}
+.newslatter-form {
+    font-style: italic;
+}
+.borderd-boxes {
+  background-color: #fff;
+  border-right: 1px solid #ededed;
+  margin-top: -195px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.single-bordered-box {
+    border-bottom: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    float: left;
+    padding: 50px 80px;
+    text-align: center;
+    width: 50%;
+}
+.single-bordered-box h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.single-testimonial-box {
+    font-style: italic;
+    line-height: 1.7;
+}
+p.author-name {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 18px;
+    text-transform: uppercase;
+}
+
+.boxed-btn-2 {
+    background-color: #333;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 30px;
+}
+.boxed-btn-2 i.fa {
+    padding-left: 3px;
+}
