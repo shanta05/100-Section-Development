@@ -623,3 +623,120 @@ p.product-pr {
   margin-top: 28px;
   padding: 16px 66px;
 }
+
+.slide-bg-1{
+  background-image: url(../img/newslatter-bg.jpg);
+}
+.boxed-btn-10, .welcome-area:after{
+background: #035d97; 
+background: -moz-linear-gradient(left,  #035d97 0%, #0493ba 100%); 
+background: -webkit-linear-gradient(left,  #035d97 0%,#0493ba 100%);
+background: linear-gradient(to right,  #035d97 0%,#0493ba 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#035d97', endColorstr='#0493ba',GradientType=1 );
+
+}
+
+.welcome-area {
+    position: relative;
+    z-index: 1;
+}
+.welcome-area::after {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 65%;
+    z-index: -1;
+}
+.logo a, .mainmenu a {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.logo a {
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.mainmenu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.mainmenu li {
+    display: inline-block;
+    position: relative;
+}
+.mainmenu li a {
+    display: block;
+    padding: 20px 12px;
+}
+.header-right-content a {
+    color: #000;
+}
+.header-right-content {
+    display: block;
+    margin-top: 0;
+    padding-top: 0;
+}
+.social-links {
+    border-left: 1px solid #e2e2e2;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-left: 17px;
+}
+.social-links a {
+    display: inline-block;
+    padding-left: 14px;
+}
+.logo {
+    padding-top: 20px;
+}
+.header-area {
+    padding: 25px 0;
+}
+.welcome-area {
+    padding-bottom: 100px;
+}
+.single-slide-item {
+    background-color: #000;
+    background-position: center center;
+    background-size: cover;
+    display: table;
+    height: 500px;
+    width: 100%;
+}
+.slide-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+.slide-text {
+    color: #fff;
+    max-width: 700px;
+    padding: 100px;
+}
+.slide-text h4 {
+    color: #7bc3d8;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.slide-text h2 {
+    font-size: 39px;
+    font-weight: 400;
+}
+.boxed-btn-10 {
+    color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 15px 46px;
+}
+.homepage-slides .owl-nav div {
+  display: inline-block;
+  color: #fff;
+  margin-right: 20px;
+  font-size: 15px;
+  margin-top: 15px;
+  opacity: 0.5;
+}
