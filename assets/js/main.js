@@ -17,12 +17,20 @@
                 navText:['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
             });
 
-    	$('.product-carousel').owlCarousel({
-				items:4,
+        $('.product-carousel').owlCarousel({
+                items:4,
+                margin:30,
+                loop:true,
+                nav:true,
+                navText:['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+            });
+    	$('.homepage-slides').owlCarousel({
+				items:1,
 				margin:30,
+                autoplay:true,
 			    loop:true,
 			    nav:true,
-			    navText:['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+			    navText:['<i class="fa fa-long-arrow-left" aria-hidden="true"></i>','<i class="fa fa-long-arrow-right" aria-hidden="true"></i>'],
 			});
 
 
