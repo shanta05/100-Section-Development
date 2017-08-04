@@ -27,12 +27,16 @@
     	$('.homepage-slides').owlCarousel({
 				items:1,
 				margin:30,
-                               	autoplay:true,
-			   	 loop:true,
-			    	nav:true,
-			    	navText:['<i class="fa fa-long-arrow-left" aria-hidden="true"></i>','<i class="fa fa-long-arrow-right" aria-hidden="true"></i>'],
+                autoplay:true,
+			    loop:true,
+			    nav:true,
+			    navText:['<i class="fa fa-long-arrow-left" aria-hidden="true"></i>','<i class="fa fa-long-arrow-right" aria-hidden="true"></i>'],
 			});
 
+         $(".video-play").magnificPopup({
+                type:'video'
+
+            });
 
      
 
