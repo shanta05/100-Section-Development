@@ -950,3 +950,15 @@ html, body {
  top: 0;
  z-index: -1;
 }
+.homepage-slides-12 .owl-nav, .homepage-slides-12 .owl-nav div {
+    color: #fff;
+    font-size: 25px;
+    left: auto;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.homepage-slides-12 .owl-nav .owl-prev {
+    right: 1324px;
+}
+
