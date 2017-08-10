@@ -34,7 +34,7 @@
 
                  $('.welcome-area-bg-video').YTPlayer({
                         fitToBackground: true,
-                        videoId: 'LSmgKRx5pBo'
+                        videoId: 'mEH_nPqeLos'
                    });
 
 
