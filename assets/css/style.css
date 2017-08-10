@@ -940,8 +940,9 @@ html, body {
 }
 
 .welcome-area-bg-video {
- position: relative;
- background: transparent;
+  background: transparent none repeat scroll 0 0;
+  overflow: hidden;
+  position: relative;
 }
 
 .ytplayer-container {
