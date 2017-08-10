@@ -9,6 +9,36 @@
         
         $('[data-toggle="tooltip"]').tooltip();
 
+
+
+            var homepage = $(".homepage-slides-12");
+               homepage.owlCarousel({
+                    items:1,
+                    autoplay:false,
+                    loop:true,
+                    dots:true,
+                    nav:true,
+                    navText:['<i class="fa fa-long-arrow-left" aria-hidden="true"></i>','<i class="fa fa-long-arrow-right" aria-hidden="true"></i>'],
+               });
+
+               homepage.on('translate.owl.carousel', function(event) {
+
+                  
+                    $(".welcome-text h1").removeClass("animated jackInTheBox")
+            });
+             homepage.on('translated.owl.carousel', function(event) {
+
+                   
+                    $(".welcome-text h1").addClass("animated jackInTheBox")
+            });
+
+                 $('.welcome-area-bg-video').YTPlayer({
+                        fitToBackground: true,
+                        videoId: 'LSmgKRx5pBo'
+                   });
+
+
+
         $('.team-carousel').owlCarousel({
                 items:3,
                 margin:30,
@@ -24,20 +54,24 @@
                 nav:true,
                 navText:['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
             });
-    	$('.homepage-slides').owlCarousel({
-				items:1,
-				margin:30,
+        $('.homepage-slides').owlCarousel({
+                items:1,
+                margin:30,
                 autoplay:true,
-			    loop:true,
-			    nav:true,
-			    navText:['<i class="fa fa-long-arrow-left" aria-hidden="true"></i>','<i class="fa fa-long-arrow-right" aria-hidden="true"></i>'],
-			});
+                loop:true,
+                nav:true,
+                navText:['<i class="fa fa-long-arrow-left" aria-hidden="true"></i>','<i class="fa fa-long-arrow-right" aria-hidden="true"></i>'],
+            });
+            	
+         
 
          $(".video-play").magnificPopup({
                 type:'video'
 
             });
 
+
+        
      
 
 
