@@ -939,17 +939,6 @@ html, body {
     z-index: -1;
 }
 
-.welcome-area-bg-video {
-  background: transparent none repeat scroll 0 0;
-  overflow: hidden;
-  position: relative;
-}
-
-.ytplayer-container {
- position: absolute;
- top: 0;
- z-index: -1;
-}
 .homepage-slides-12 .owl-nav, .homepage-slides-12 .owl-nav div {
     color: #fff;
     font-size: 25px;
@@ -961,4 +950,96 @@ html, body {
 .homepage-slides-12 .owl-nav .owl-prev {
     right: 1324px;
 }
+
+
+.welcome-area-bg-video {
+  background: transparent none repeat scroll 0 0;
+  position: relative;
+  overflow: hidden;
+}
+.ytplayer-container {
+ position: absolute;
+ top: 0;
+ z-index: -1;
+}
+
+
+
+
+.bgg-1{
+  background-image: url(../img/pro-bg-1.jpg);
+}
+.bgg-2{
+  background-image: url(../img/pro-bg-2.jpg);
+}
+.bgg-3{
+  background-image: url(../img/pro-bg-3.jpg);
+}
+.bgg-4{
+  background-image: url(../img/pro-bg-4.jpg);
+}
+
+
+.single-portfolio-item {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    height: 250px;
+    width: 33.3333%;
+    position: relative;
+    z-index: 2;
+}
+.portfilo-list {
+    overflow: hidden;
+}
+
+.single-portfolio-item.large-item {
+    height: 500px;
+}
+
+
+
+.item-hover {
+    bottom: -75px;
+    color: #fff;
+    font-size: 12px;
+    left: 20%;
+    padding: 20px;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+}
+.item-hover h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.single-portfolio-item:hover .item-hover {
+    bottom: 50px;
+}
+.single-portfolio-item::after{
+background: #cacaca;
+background: -moz-linear-gradient(top,  #cacaca 0%, #5c5c5c 100%); 
+background: -webkit-linear-gradient(top,  #cacaca 0%,#5c5c5c 100%);
+background: linear-gradient(to bottom,  #cacaca 0%,#5c5c5c 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cacaca', endColorstr='#5c5c5c',GradientType=0 ); 
+
+}
+.single-portfolio-item::after {
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+    z-index: -1;
+    transition: 0.3s;
+}
+.single-portfolio-item:hover::after {
+    opacity: 0.5;
+    visibility: visible;
+}
+
 
