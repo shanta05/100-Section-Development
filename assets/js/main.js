@@ -10,6 +10,11 @@
         $('[data-toggle="tooltip"]').tooltip();
 
 
+          $(".portfilo-list").masonry({
+            horizontalOrder: true
+          });
+
+
 
             var homepage = $(".homepage-slides-12");
                homepage.owlCarousel({
@@ -70,6 +75,7 @@
 
             });
 
+       
 
         
      
