@@ -1043,3 +1043,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cacaca', end
 }
 
 
+
+.portfolio-filter ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.portfolio-filter li.active{
+  color: red;
+}
+
+.portfolio-filter li {
+    display: inline-block;
+    padding-right: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.portfolio-filter li::after {
+    content: "/";
+    padding-left: 20px;
+}
+.portfolio-filter li:last-child::after {
+    content: "";
+}
+.portfolio-filter ul {
+  margin-bottom: 19px;
+  text-align: center;
+}
