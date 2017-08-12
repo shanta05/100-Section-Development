@@ -10,9 +10,43 @@
         $('[data-toggle="tooltip"]').tooltip();
 
 
-          $(".portfilo-list").masonry({
-            horizontalOrder: true
+          
+
+
+
+
+
+          $(".portfolio-filter li").on('click',function(){
+
+
+            var filterdata = $(this).attr("data-filter");
+
+
+                $(".portfilo-list").isotope({
+
+                    filter: filterdata,
+                    
+                 });
+
+                $('.portfolio-filter li').removeClass('active');
+
+                $(this).addClass('active');
           });
+
+
+          $(".portfilo-list").isotope({
+
+              itemSelector: '.single-portfolio-item',
+              percentPosition: true,
+              masonry: {
+                 horizontalOrder: true,
+                columnWidth: '.single-portfolio-item'
+              }
+          });
+
+
+
+
 
 
 
@@ -41,6 +75,8 @@
                         fitToBackground: true,
                         videoId: 'LSmgKRx5pBo'
                    });
+
+
 
 
 
