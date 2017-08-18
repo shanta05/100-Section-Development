@@ -12,7 +12,10 @@
 
           
 
-	 $('body').perfectScrollbar();
+         $('body').perfectScrollbar();
+         $('.scrolled-item').perfectScrollbar({
+            theme:'yellow'
+         });
 
 
 
@@ -43,8 +46,6 @@
                 columnWidth: '.single-portfolio-item'
               }
           });
-
-
 
 
 
@@ -110,6 +111,8 @@
                 type:'video'
 
             });
+
+
 
        
 
