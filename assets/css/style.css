@@ -25,9 +25,12 @@ h6 {
     margin: 0 0 15px;
     font-weight: 700;
 }
-body {
-
+html,body{
+   height: 100%;
+  position: relative;
+  overflow: hidden;
 }
+
 a:hover { text-decoration: none }
 .section-padding{
     padding: 115px 0;
@@ -1071,4 +1074,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cacaca', end
 .portfolio-filter ul {
   margin-bottom: 19px;
   text-align: center;
+}
+
+
+
+.scrolled-item{
+  height: 300px;
+  position: relative;
+}
+
+.heading {
+  color: red;
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
 }
