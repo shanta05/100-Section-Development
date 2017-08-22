@@ -1089,3 +1089,71 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cacaca', end
   display: block;
   margin-bottom: 20px;
 }
+
+
+
+
+
+
+.section-title-17 h2 {
+    color: #333;
+    position: relative;
+    z-index: 1;
+}
+.section-title-17 h2::before {
+    background: #ffba00 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: -20px;
+    position: absolute;
+    top: 0;
+    width: 5px;
+}
+.section-padding-17 {
+    color: #737373;
+    font-size: 16px;
+    line-height: 1.8;
+    padding: 115px 40px;
+}
+.service-icon-17 {
+    color: #ffba00;
+    font-size: 50px;
+}
+.single-service-box-17 {
+    margin-bottom: 40px;
+}
+.single-service-box-17 h3 {
+    color: #4b5abb;
+}
+.section-title-17 {
+    margin-bottom: 40px;
+}
+.bordered-box {
+    border: 5px solid #ffba00;
+    margin-left: 30px;
+    margin-right: 100px;
+    margin-top: 100px;
+    padding: 40px;
+    position: relative;
+}
+.bordered-box-img {
+    margin-right: -140px;
+    margin-top: -140px;
+    max-width: 141%;
+    width: 430px;
+}
+.bordered-box-readmore-btn {
+    bottom: 42px;
+    font-weight: 700;
+    position: absolute;
+    right: -100px;
+    text-transform: uppercase;
+    transform: rotate(270deg);
+}
+.bordered-box-readmore-btn i.fa {
+    margin-right: 6px;
+}
+.bordered-box h4 {
+    color: #333;
+    margin-top: 10px;
+}
