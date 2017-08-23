@@ -1260,3 +1260,100 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cacaca', end
 .single-service-box-18:hover:after {
   opacity: 0.6;
 }
+
+
+
+
+
+.section-padding-19 {
+    padding: 115px 0;
+}
+.pricing-table-19 {
+    border-top: 3px solid #2dc794;
+    box-shadow: 0 0 9px #ddd;
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s
+}
+.pricing-table-19 h3 {
+    font-size: 21px;
+    font-weight: 700;
+}
+.price-19 {
+    background: #2dc794 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    height: 100px;
+    margin: 30px auto;
+    padding-top: 11px;
+    position: relative;
+    width: 100px;
+    z-index: 1;
+}
+.pricing-text-19 {
+    font-size: 27px;
+}
+.price-19::after {
+    border: 3px solid #de5b25;
+    border-radius: 50%;
+    content: "";
+    height: 112%;
+    left: -6px;
+    position: absolute;
+    top: -6px;
+    width: 112%;
+}
+.pricing-content-19 p {
+    color: #6a6a6a;
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+.pricing-content-19 {
+    line-height: 1.8;
+}
+
+
+
+
+.bordered-btn-19, .boxed-btn-19 {
+    border: 2px solid #2dc794;
+    border-radius: 40px;
+    color: #2dc794;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 50px;
+}
+.boxed-btn-19 {
+    background: #de5b25 none repeat scroll 0 0;
+    border-color: #de5b25;
+    color: #fff;
+}
+.pricing-table-19.theme-2 {
+    border-color: #de5b25;
+}
+.theme-2 .price-19 {
+    background: #ff5e3d none repeat scroll 0 0;
+}
+.theme-2 .price-19::after {
+    border-color: #ff5e3d;
+}
+.pricing-table-19.theme-3 {
+    border-color: #b378f8;
+}
+.theme-3 .price-19 {
+    background: #b378f8 none repeat scroll 0 0;
+}
+.theme-3 .price-19::after {
+    border-color: #b378f8;
+}
+.theme-3 .bordered-btn-19 {
+    border-color: #b378f8;
+    color: #b378f8;
+}
+
+.pricing-table-19:hover {
+    transform: scale(1.1);
+}
