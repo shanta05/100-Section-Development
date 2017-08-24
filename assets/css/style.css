@@ -1357,3 +1357,100 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cacaca', end
 .pricing-table-19:hover {
     transform: scale(1.1);
 }
+
+
+
+
+
+
+
+
+
+.section-padding-20 {
+    padding: 115px 0;
+}
+.feature-menu {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.feature-menu li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+.feature-menu li.active a{
+  border-color: #f1c30f;
+}
+.feature-menu a {
+    border-bottom: 4px solid transparent;
+    color: #333;
+    display: block;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0 30px;
+    text-decoration: none;
+}
+.single-feature-item {
+  display: table;
+  height: 500px;
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+}
+.feature-bg {
+  background-color: #ddd;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 500px;
+}
+
+.feature-bg-1{
+  background-image: url(../img/blog-1.jpg);
+}
+.feature-bg-2{
+  background-image: url(../img/bg-1.png);
+}
+.feature-bg-3{
+  background-image: url(../img/bg-2.png);
+}
+.feature-bg-4{
+  background-image: url(../img/bg-3.png);
+}
+.feature-text {
+    display: table-cell;
+    height: 100%;
+    padding-left: 550px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+
+
+
+.feature-text h4 {
+    font-size: 17px;
+    font-weight: 700;
+    opacity: 0.5;
+}
+.feature-text h3 {
+    font-weight: 400;
+}
+.feature-text p {
+    color: #333;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.boxed-btn-20 {
+    background-color: #f1c30f;
+    border-radius: 29px;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 50px;
+}
