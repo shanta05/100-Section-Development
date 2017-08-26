@@ -1454,3 +1454,133 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cacaca', end
     display: inline-block;
     padding: 15px 50px;
 }
+
+
+.bg-22{
+  background-image: url(../img/blog-1.jpg);
+}.bg-23{
+  background-image: url(../img/slide-bg-1.jpg);
+}
+.bg-24{
+  background-image: url(../img/pro-bg-4.jpg);
+}
+.bg-25{
+  background-image: url(../img/pro-bg-1.jpg);
+}.bg-26{
+  background-image: url(../img/pro-bg-3.jpg);
+}
+
+
+
+
+.single-service-item-22 {
+    background-position: center center;
+    background-size: cover;
+}
+.portfolio-item-22 {
+    overflow: hidden;
+}
+.single-service-item-22 {
+    display: table;
+    float: left;
+    height: 250px;
+    position: relative;
+    width: 20%;
+}
+.service-text h3 {
+    color: #f9cd4a;
+    font-size: 10px;
+    font-style: italic;
+}
+.service-text p {
+    color: #ffff;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+.service-text {
+  bottom: 0;
+  padding: 25px;
+  position: absolute;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+  z-index: 22;
+}
+.service-hover {
+  display: table-cell;
+  height: 100%;
+  opacity: 0;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  visibility: hidden;
+  width: 100%;
+  z-index: 1;
+  transition: 0.3s;
+}
+.service-hover a {
+    background-color: #f9cd4a;
+    border-radius: 50%;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+}
+.service-hover::after {
+    background-color: #333;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.section-title-22 h3 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.section-title-22 p {
+    color: #828282;
+}
+.icon-22 {
+    color: #fbce4b;
+    font-size: 40px;
+    position: relative;
+}
+.icon-22::after {
+    background-color: #fbce4b;
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: -70px;
+    top: 24px;
+    width: 50px;
+}
+.icon-22::before {
+    background-color: #fbce4b;
+    content: "";
+    height: 2px;
+    left: -70px;
+    position: absolute;
+    top: 24px;
+    width: 50px;
+}
+
+.section-padding-22 {
+    padding: 40px 0;
+}
+
+
+
+.single-service-item-22:hover .service-hover {
+    opacity: 1;
+    visibility: visible;
+}
+.single-service-item-22:hover .service-text {
+    opacity: 0;
+    visibility: hidden;
+}
