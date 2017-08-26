@@ -1481,12 +1481,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cacaca', end
     overflow: hidden;
 }
 .single-service-item-22 {
-    display: table;
-    float: left;
-    height: 250px;
-    position: relative;
-    width: 20%;
+  display: table;
+  height: 250px;
+  position: relative;
+  width: 100%;
+  background-position: right top;
+  background-size: cover;
 }
+
 .service-text h3 {
     color: #f9cd4a;
     font-size: 10px;
@@ -1526,6 +1528,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cacaca', end
     height: 40px;
     line-height: 40px;
     width: 40px;
+    color: #fff;
 }
 .service-hover::after {
     background-color: #333;
@@ -1583,4 +1586,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cacaca', end
 .single-service-item-22:hover .service-text {
     opacity: 0;
     visibility: hidden;
+}
+
+
+
+.owl-dots div {
+    background: #000 none repeat scroll 0 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin: 4px;
+    width: 10px;
+}
+.owl-dots div.active {
+    background: blue none repeat scroll 0 0;
+}
+.owl-dots {
+    text-align: center;
+}
+
+.service-hover a.blue {
+    background-color: #1486cf;
 }
