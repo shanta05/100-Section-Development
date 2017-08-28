@@ -1700,3 +1700,127 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cacaca', end
   .section-padding-233 h3 {
   margin-left: 37%;
 }
+
+
+
+
+
+.header-menu-24 ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.header-menu-24 li {
+    display: inline-block;
+}
+.header-menu-24 li a {
+  color: #fff;
+  display: block;
+  padding: 14px;
+  opacity: 0.7;
+}
+
+.header-right {
+  color: #fff;
+  padding: 12px;
+  margin-left: 8px;
+}
+.seperator {
+    position: relative;
+}
+.seperator::before {
+    background: #17b98a none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 10px;
+    width: 30px;
+}
+.header-icon p {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 1px;
+}
+.header-icon {
+    border: 2px solid #df00ff;
+    border-radius: 50%;
+    height: 50px;
+    line-height: 1.7;
+    text-align: center;
+    width: 50px;
+}
+.section-padding-24 {
+    padding: 15px 0;
+}
+
+
+.welcome-area-left h1 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+}
+.welcome-area-24 {
+  background: rgba(0, 0, 0, 0) linear-gradient(45deg, #a455ff 0%, #5e32fc 100%) repeat scroll 0 0;
+  padding: 100px 0 50px;
+}
+.welcome-area-left p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.welcome-area-relative {
+    position: relative;
+}
+.welcome-area-right {
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  height: 55%;
+  padding-left: 50px;
+  padding-top: 20px;
+  position: absolute;
+  right: -152%;
+  top: 50px;
+  width: 100%;
+}
+.welcome-area-right p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.welcome-area-right p i.fa {
+    font-size: 25px;
+    padding-right: 12px;
+}
+
+.single-service-box-24 {
+    color: #fff;
+    padding-top: 22px;
+}
+.service-icon-24 {
+    font-size: 40px;
+}
+.single-service-box-24 h4 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 18px;
+}
+.single-service-box-24 p {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+
+.header-absolute-24 {
+    position: absolute;
+    width: 100%;
+}
+.welcome-area-left span {
+  border-bottom: 1px solid #fff;
+  opacity: 0.7;
+}
