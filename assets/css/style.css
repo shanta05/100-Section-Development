@@ -1824,3 +1824,80 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cacaca', end
   border-bottom: 1px solid #fff;
   opacity: 0.7;
 }
+
+
+
+
+
+
+
+.single-service-box-25 h4 {
+    margin-bottom: 30px;
+}
+.section-padding-25 {
+    background-color: #ddd;
+    margin-top: 30px;
+}
+.service-icon-25 {
+    font-size: 120px;
+    line-height: 1.8;
+    opacity: 0.5
+}
+.single-service-box-25 {
+  color: #000;
+  padding: 10px 40px 40px;
+  position: relative;
+}
+
+.service-box-hover-25 {
+  background-image: url("../img/pro-bg-4.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform: scale(1);
+  transition: all 0.3s ease 0s;
+  visibility: hidden;
+  width: 100%;
+}
+
+.service-box-hover-25::after {
+    background: #299a0b;
+    background: -moz-linear-gradient(45deg,  #299a0b 0%, #299a0b 100%);
+    background: -webkit-linear-gradient(45deg,  #299a0b 0%,#299a0b 100%);
+    background: linear-gradient(45deg,  #299a0b 0%,#299a0b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#299a0b', endColorstr='#299a0b',GradientType=1 );
+
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.service-box-inner-25 {
+    position: relative;
+    z-index: 3;
+}
+
+.single-service-box-25:hover .service-box-hover-25 {
+    opacity: 1;
+    transform: scale(1.2);
+    visibility: visible;
+}
+.single-service-box-25:hover {
+    color: #fff;
+}
+.bg-25{
+  background-image: url(../img/pro-bg-1.jpg);
+}
+.bg-26{
+  background-image: url(../img/pro-bg-2.jpg);
+}
+.bg-27{
+  background-image: url(../img/pro-bg-3.jpg);
+}
