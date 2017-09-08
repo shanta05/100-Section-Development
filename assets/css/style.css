@@ -1949,3 +1949,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cacaca', end
     width: 40%;
     z-index: -1;
 }
+
+.section-padding-31 {
+    background: #191d1c none repeat scroll 0 0;
+    line-height: 2;
+    margin-top: 200px;
+    padding: 100px 0;
+    padding-bottom: 60px;
+}
+.section-padding-31 h1 {
+    color: #fff;
+    font-weight: 900;
+}
+.section-padding-31 h4 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.section-padding-31 p {
+    color: #999999;
+    max-width: 80%;
+}
+.bordered-box-31 {
+  border: 1px solid #999999;
+  color: #999999;
+  display: inline-block;
+  margin-top: 25px;
+  padding: 5px 40px;
+}
+.absolute-img {
+    margin-top: -270px;
+}
